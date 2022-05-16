@@ -6,15 +6,14 @@
 
   <groupId>actl</groupId>
   <artifactId>actl-api</artifactId>
-  <version>0.0.0</version>
+
+  <parent>
+    <groupId>actl</groupId>
+    <artifactId>actl-parent</artifactId>
+    <version>0.0.0</version>
+  </parent>
 
   <name>Access Control REST API</name>
-
-  <properties>
-    <java.version>18</java.version>
-    <maven.compiler.source>18</maven.compiler.source>
-    <maven.compiler.target>18</maven.compiler.target>
-  </properties>
 
   <dependencies>
     <dependency>
